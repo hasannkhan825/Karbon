@@ -1,0 +1,21 @@
+{
+  "name": "karbon",
+  "version": "1.0.0",
+  "description": "Karbon is a Carbon Footprint Calculator. It is a full-stack project that includes user registration, login and storing of user data.   Stack used: MySQL Database, Node.js, Express, Frontend TBD",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22"
+  }
+}
